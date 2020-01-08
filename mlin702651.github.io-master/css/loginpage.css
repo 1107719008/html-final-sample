@@ -1,0 +1,433 @@
+body{
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+/* 背景動畫 */
+section{
+    width:100%;
+    height:100%;
+    background:radial-gradient(#FFEAA8,#FFF1C6) ;
+    z-index: -1;
+}
+.set{
+    position:absolute;
+    width:100%;
+    height:100%;
+    top: 0;
+    left: 0;
+}
+.set div{
+    position: fixed;
+    display: block;
+}
+.set div:nth-child(1){
+    left: 20%;
+    animation: animate 9s linear infinite;
+    animation-delay: -3s;
+
+} 
+.set div:nth-child(2){
+    left: 50%;
+    animation: animate 9s linear infinite;
+    animation-delay: -4s;
+} 
+.set div:nth-child(3){
+    left: 30%;
+    animation: animate 10s linear infinite;
+    animation-delay: -2s;
+} 
+.set div:nth-child(4){
+    left: 10%;
+    animation: animate 10s linear infinite;
+    animation-delay: -1s;
+} 
+.set div:nth-child(5){
+    left: 70%;
+    animation: animate 10s linear infinite;
+    animation-delay: -2s;
+} 
+.set div:nth-child(6){
+    left: 90%;
+    animation: animate 7s linear infinite;
+    animation-delay: -3s;
+} 
+.set div:nth-child(7){
+    left: 78%;
+    animation: animate 9s linear infinite;
+    animation-delay: -5s;
+} 
+.set div:nth-child(8){
+    left: 35%;
+    animation: animate 9s linear infinite;
+
+} 
+.set div:nth-child(9){
+    left: 0%;
+    animation: animate 8s linear infinite;
+} 
+@keyframes animate{
+
+    0%
+    {
+        opacity: 0;
+        top:-10%;
+        transform: /*translateX(20px)*/ rotate(0deg);
+    }
+    10%{
+        opacity: 1;
+    }
+    20%{
+        transform: /*translateX(-20px)*/ rotate(45deg);
+    }
+    70%{
+        transform: /*translateX(20px)*/ rotate(270deg);
+    }
+    100%{
+        top:110%;
+    }
+}
+/* 背景動畫結束 */
+
+/* 輸入文字區塊 */
+/*標籤*/
+
+.lable_login{
+    position: absolute;
+    left: 32vw;
+    top: 6.2vw;
+    background-color: #FFD655;
+    border-radius: 5px;
+    padding: 0.859vw 2.34vw;
+    color:#814646;
+    font-size: 1.4vw;
+    font-family: Taipei Sans TC Beta;
+    font-weight: 100;
+    z-index: 0;
+    border: 0;
+    outline:none;
+}
+#sign-info{
+    color:#814646;
+    font-size: 12px;
+}
+.lable_singin{
+    position: absolute;
+    left: 39.5vw;
+    top: 6.2vw;
+    background-color: #FFEAA8;
+    border-radius: 5px;
+    padding: 0.859vw 2.34vw;
+    color:#814646;
+    font-size: 1.4vw;
+    font-family: Taipei Sans TC Beta;
+    font-weight: 100;
+    z-index: 0;
+    border: 0;
+    outline:none;
+}
+
+.up{
+    /* display:none; */
+    position:absolute;
+    width:36vw;
+    height:34vw;
+    margin: 8.8vw 32vw ;
+    background-color: #FFD655;
+    border-radius: 5px;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    z-index: 1;
+    margin-right: 0;
+}
+.welcomeback{
+    color:#814646;
+    font-size: 17px;
+    font-family: Segoe WP;
+    margin:0;
+    margin-top: 7vw;
+}
+.logaccount{
+   
+    position: relative;
+    color:white;
+    box-shadow: #000000;
+    font-family: Segoe WP;
+    font-size: 30px;
+    margin:0;
+    margin-bottom: 3vw;
+    margin-top: -10px;
+    text-shadow:#a8555563 0em 0.1em 0.2em;
+}
+#email{
+    color:#814646;
+    font-size: 17px;
+    font-family: Segoe WP;
+    width: 19vw;
+    border:0;
+    border-bottom: solid 2px #814646cc;
+    background-color: #FFD655;
+    margin-bottom:3.5vw;
+    outline:none;
+    
+}
+::-webkit-input-placeholder{
+    color:#81464679;
+
+}
+#password{
+    color:#814646;
+    font-size: 17px;
+    font-family: Segoe WP;
+    width: 19vw;
+    border:0;
+    border-bottom: solid 2px #814646cc;
+    background-color: #FFD655;
+    margin-bottom:5px;
+    outline: none;
+}
+.login{
+    display:inline-block;
+    position: relative;
+    align-self: center;
+    text-align: center;
+    font-family: Segoe WP;
+    font-size: 15px;
+    border: solid 2px transparent;
+    border-radius: 3px;
+    width: 114px;
+    height: 32px;
+    cursor: pointer;
+    color: #FFD655;
+    background-color:white;
+    transition-duration: 0.4s;
+    z-index:3;
+    margin-top: 3.554vw;
+    margin-bottom: 0.9375vw;
+    outline:none;
+    box-shadow: 0 2px 4px 0 rgba(0,0,0,0.2);
+}
+.login:hover{
+    background-color:#FFD655;
+    color:white;
+    border:solid 2px white;
+    box-shadow: 0 2px 4px 0 rgba(0,0,0,0.2);
+    outline: none;
+    
+}
+.login:active {
+    background-color:#FFD655;
+    box-shadow: 0 4px;
+    transform: translateY(4px);
+    background-color:#FFD655;
+    color:white;
+    border:solid 2px white;
+    outline: none;
+}
+.signup{
+    display:none;
+    position: relative;
+    align-self: center;
+    text-align: center;
+    font-family: Segoe WP;
+    font-size: 15px;
+    border: solid 2px transparent;
+    border-radius: 3px;
+    width: 114px;
+    height: 32px;
+    cursor: pointer;
+    color: #FFD655;
+    background-color:white;
+    transition-duration: 0.4s;
+    z-index:3;
+    margin-top: 3.554vw;
+    margin-bottom: 0.9375vw;
+    outline:none;
+    box-shadow: 0 2px 4px 0 rgba(0,0,0,0.2);
+}
+.signup:hover{
+    background-color:#FFD655;
+    color:white;
+    border:solid 2px white;
+    box-shadow: 0 2px 4px 0 rgba(0,0,0,0.2);
+    outline: none;
+    
+}
+.signup:active {
+    background-color:#FFD655;
+    box-shadow: 0 4px;
+    transform: translateY(4px);
+    background-color:#FFD655;
+    color:white;
+    border:solid 2px white;
+    outline: none;
+}
+.signout{
+    display:inline-block;
+    position: relative;
+    align-self: center;
+    text-align: center;
+    font-family: Segoe WP;
+    font-size: 15px;
+    border: solid 2px transparent;
+    border-radius: 3px;
+    width: 114px;
+    height: 32px;
+    cursor: pointer;
+    color: #FFD655;
+    background-color:white;
+    transition-duration: 0.4s;
+    z-index:3;
+    margin-top: 3.554vw;
+    margin-bottom: 0.9375vw;
+    outline:none;
+    box-shadow: 0 2px 4px 0 rgba(0,0,0,0.2);
+}
+.signout:hover{
+    background-color:#FFD655;
+    color:white;
+    border:solid 2px white;
+    box-shadow: 0 2px 4px 0 rgba(0,0,0,0.2);
+    outline: none;
+    
+}
+.signout:active {
+    background-color:#FFD655;
+    box-shadow: 0 4px;
+    transform: translateY(4px);
+    background-color:#FFD655;
+    color:white;
+    border:solid 2px white;
+    outline: none;
+}
+/*註冊*/
+.singin{
+    display:none;
+    /* position:absolute;
+    width:36vw;
+    height:34vw;
+    margin: 8.8vw 32vw ;
+    background-color: #FFD655;
+    border-radius: 5px;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    z-index: 1; */
+}
+
+
+
+@media screen and (max-width:768px){
+    
+    .up{
+        /* display:none;*/
+        width:59.89vw; 
+        height:63.582vw;
+
+       
+        margin: 32.6vw 20.39vw;
+       
+    }
+    .welcomeback{
+        margin-top: 7vh;
+    }
+    .lable_login{
+        left: 20.39vw;
+        top: 29.2vw;
+    }
+    .lable_singin{
+        left:27.79vw;
+        top: 29.2vw;
+        margin-left: 0;
+    }
+    #email{
+      
+        width: 241.59px;
+        border:0;
+        border-bottom: solid 1.5px #814646cc;
+        background-color: #FFD655;
+        margin-bottom:4.6vw;
+        outline:none;
+        
+    }
+    #password{
+        width: 241.59px;
+    }
+    .c1{
+        width:170px;
+
+    }
+    #sign-info{
+        margin-top: 12px;
+        margin-bottom: 20px;
+    }
+
+}
+
+@media screen and (max-width:375px){
+ 
+    .up{
+        width: 65vw;
+        height:441px;
+        padding-left: 25px;
+        padding-right:25px;
+        margin: 48vw 10vw ;
+        
+    }
+    .lable_login{
+        width: 15.1888vw;
+        left: 10vw;
+        top: 43.8vw;
+        padding: 0.6vw 1.7vw;
+        font-size: 13px;
+        z-index: 5;
+    }
+    
+    .lable_singin{
+        position: absolute;
+        left: 24.9vw;
+        top: 43.8vw;
+        width: 15.1888vw;
+       
+        border-radius: 5px;
+        padding: 0.859vw 2.34vw;
+        color:#814646;
+        font-size: 13px;
+        z-index: 5;
+        
+    }
+   
+    .welcomeback{
+        margin-top: 7vh;
+        font-size: 15px;
+    }
+    .logaccount{
+        font-size: 20px;
+        margin-bottom: 55px;
+    }
+    #email{
+        font-size: 15px;
+        width: 241.59px;
+        margin-bottom:54.5px;
+
+    }
+    #password{
+        width: 241.59px;
+        font-size: 15px;
+        margin-bottom: 50.5px;
+    }
+    .c1{
+        width:110px;
+
+    }
+
+    #sign-info{
+    margin-top: 5px;
+    margin-bottom: 5px;
+    }
+
+
+
+
+}

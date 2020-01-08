@@ -1,0 +1,65 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+<body>
+
+    <h2>註冊</h2>
+<lable for="account"></lable>
+<input id="account" type="text">
+<lable for="pwd"></lable>
+<input id="pwd" type="password">
+<button type="submit" id="registerSmtBtn">Signup</button>
+
+<h2>登入</h2>
+<lable for="accountL"></lable>
+<input id="accountL" type="text">
+<lable for="pwdL"></lable>
+<input id="pwdL" type="password">
+<button type="submit" id="loginSmtBtn">Login</button>
+
+<h2>登出</h2>
+<button id="signoutSmtBtn">Signout</button>
+
+<h2>電子郵件驗證</h2>
+<button id="verifyBtn">Verify</button>
+
+<h2>更改密碼</h2>
+<label for="chgPwd">Email</label>
+<input id="chgPwd" type="text">
+<button id="chgPwdBtn">ChangePwd</button>
+
+<h2>Facebook登入</h2>
+<button id="fbLoginBtn">FB Login</button>
+
+
+<script scr="js/firetest.js"></script>
+
+<!-- The core Firebase JS SDK is always required and must be listed first -->
+<script src="https://www.gstatic.com/firebasejs/7.6.1/firebase-app.js"></script>
+
+<!-- TODO: Add SDKs for Firebase products that you want to use
+     https://firebase.google.com/docs/web/setup#available-libraries -->
+
+<script>
+  // Your web app's Firebase configuration
+  var firebaseConfig = {
+    apiKey: "AIzaSyBBQv0oooAtcUrViRJvh3zranq1LVVMIDM",
+    authDomain: "project-1841682900147615791.firebaseapp.com",
+    databaseURL: "https://project-1841682900147615791.firebaseio.com",
+    projectId: "project-1841682900147615791",
+    storageBucket: "project-1841682900147615791.appspot.com",
+    messagingSenderId: "192287192023",
+    appId: "1:192287192023:web:184e33962afc877ae29192"
+  };
+  // Initialize Firebase
+  firebase.initializeApp(firebaseConfig);
+</script>
+</body>
+</html>
+

@@ -1,0 +1,334 @@
+html{
+    background-color:#fffbf8;
+    width:100%;
+    margin: auto;
+    display: flex;
+    align-content: center;
+}
+
+body{
+  
+  padding: 0px;
+  /* 置中 */
+  margin: 0px auto;
+}
+
+/* 浮動視窗 */
+#sidebar {
+	position: absolute;
+	height: 7vw;
+    width: 7vw;
+    top:25%;
+    margin-left: 68vw;
+    float: right;
+    z-index: 9;
+    
+}
+ 
+#cart {
+    position: fixed;
+    z-index: 9;
+    opacity: 0;
+}
+
+#header{
+    width: 4.6vw;
+    /* outline: 1px solid #000; */
+	height:4.14vw;
+    z-index: 9999;
+    background-size: 99%;
+    background-position: center;
+    background-image:url(../images/heartgradual_icon.png);
+    margin-left: 26vw;
+}
+
+#popWindow{ /*此行指定放置廣告的div */
+    width:20vw; 
+    height:30vw; 
+    margin-left: 9.7vw;
+    background-color: #fffbf8;
+    box-shadow:5px 5px 10px rgba(0, 0, 0,0.2); /*此行設定div的外框陰影*/
+    border:0.5px #854B4B solid; /*此行設定div的外框線條*/
+    border-radius:5px; /*此行設定div的外框圓角*/
+    position:fixed; /*此行設定div為不隨捲動而移動的模式*/
+    float: right;
+    display:none;
+    }
+
+/* 浮動視窗結束 */
+
+
+.yellowbackground{
+    background-color:#FFEAA8;
+    width: 100vw;
+    height: 55vw;
+    padding: 0px;
+    margin: 0px;
+    z-index: 10;
+}
+/* 上面選單 */
+.top{
+    display: flex;
+    padding:  2vw 0 0 0;
+    margin: 0;
+}
+
+.name{
+    color:#854B4B;
+    margin:0vw 6.4vw 0vw 6vw;
+    font-family:Bodoni MT;
+    font-size:35px;
+    font-style: normal;
+    font-stretch: normal;
+    letter-spacing: normal;
+}
+.line_top{
+    width: 2px;
+    height: 1.9vw;
+    background-color: #854B4B;
+    margin: 0.6vw 2vw 0vw 0;
+
+}
+.candy{
+    color:#854B4B;
+    margin: 0.7vw 2vw 0vw 0;
+    font-family:Segoe WP;
+    font-size: 20px;
+    font-style: normal;
+    font-stretch: normal;
+    letter-spacing: normal;
+}
+
+.chocolate{
+    color:#854B4B;
+    margin: 0.7vw 2vw 0vw 0;
+    font-family:Segoe WP;
+    font-size: 20px;
+    font-style: normal;
+    font-stretch: normal;
+    letter-spacing: normal;
+}
+.cookie{
+    color:#854B4B;
+    margin: 0.7vw 48.5vw 0vw 0;
+    font-family:Segoe WP;
+    font-size: 20px;
+    font-style: normal;
+    font-stretch: normal;
+    letter-spacing: normal;
+}
+
+.heart_icon_top{
+    width: 2vw;
+    height: 1.8vw;
+    margin: 0.5vw 1.5vw 0vw 0;
+
+}
+.user_icon_top{
+    width: 1.7vw;
+    height: 2vw;
+    margin: 0.4vw 0 0vw 0;
+}
+
+/* 換圖 */
+/* .momo15{
+    width: 89.9vw;
+    height: 47.6vw;
+    margin: 0.7vw 5vw 129vw 5vw;
+} */
+/* 熱門商品 */
+.wordhot{
+    color:#854B4B;
+    margin: 4vw 3.4vw 0vw 0;
+    font-family:Franklin Gothic Book;
+    font-size: 30px;
+    font-style: normal;
+    font-stretch: normal;
+    letter-spacing: normal;
+    margin-top: 3.7vw;
+    margin-left: 0.5vw;
+}
+.HOTline{
+    width: 0.2vw;
+    height: 1.9vw;
+    background-color: #854B4B;
+    margin-top: 3.9vw;
+    /* margin-left: 3.4vw; */
+    margin-bottom: 1vw;
+    margin-right: 0.7vw;
+}
+.hot{
+    display: flex;
+    padding: 0px;
+    margin-left: 3.4vw;
+}
+.hotimg{
+    display: flex;
+    position: relative;
+    padding: 0px;
+    top:2vw;
+    margin-left: 3.4vw;
+    z-index: 3;
+}
+.hot2{
+    width: 22.3vw;
+    height: 30.5vw;
+    box-shadow: 3px 3px 7px rgba(0, 0, 0, 0.3);
+    border-radius: 3px;
+    margin-left: 3.4vw;
+    margin-right: 0.8vw;
+    position: relative;
+    z-index: 3;
+}
+.hot1{
+    width: 46vw;
+    height: 30.5vw;
+    box-shadow: 3px 3px 7px rgba(0, 0, 0, 0.3);
+    border-radius: 3px;
+    margin-right: 0.8vw;
+    position: relative;
+    z-index: 3;
+}
+.hot3{
+    width: 22.3vw;
+    height: 30.5vw;
+    box-shadow: 3px 3px 7px rgba(0, 0, 0, 0.3);
+    border-radius: 3px;
+    position: relative;
+    z-index: 3;
+}
+.hotbackground{
+    width: 100vw;
+    height: 31vw;
+    position: absolute;
+    background-color: rgb(255, 214, 85);
+    z-index: 0;
+    margin-top: -27vw;
+}
+
+/* 下面的照片圖 */
+.row1{
+    display: flex;
+    padding: 0px;
+    margin-top: 8.2vw;
+}
+.row2{
+    display: flex;
+    padding: 0px;
+    margin-top:2vw;
+}
+.row3{
+    display: flex;
+    padding: 0px;
+    margin-top:2vw;
+}
+
+.box1{
+    width: 15.8vw;
+    height: 20.5vw;
+    background-color:rgba(255, 215, 85, 0.5);
+    margin-left: 14vw;
+    
+}
+.box2{
+    width: 15.8vw;
+    height: 20.5vw;
+    background-color:rgba(255, 215, 85, 0.5);
+    margin-left: 2.8vw;
+
+}
+.box3{
+    width: 15.8vw;
+    height: 20.5vw;
+    background-color:rgba(255, 215, 85, 0.5);
+    margin: 0vw 14vw 0 2.8vw;
+
+}
+.boximg{
+    width: 13.75vw;
+    height: 13.75vw;
+    margin: 1.1vw 1vw 5.625vw 1vw;
+}
+.information{
+    
+    margin-top: -5.2vw;
+    margin-left : 1.3vw;
+    color:#854B4B;
+    font-family:Segoe WP;
+    font-size:0.95vw;
+    font-style: normal;
+    font-stretch: normal;
+    letter-spacing: normal;
+}
+/* 頁數 */
+.number{
+    font-family:Franklin Gothic Book;
+    font-size:1.3vw;
+    color:#854B4B;
+    display: flex;
+    margin-left: 44vw;
+    margin-top: 1vw;
+    margin-bottom: 1.5vw;
+    list-style-type: none;
+}
+.one{
+    margin-right: 2vw;
+}
+.two{
+    margin-right: 2vw;
+}
+/* footer */
+footer{
+    width: 100vw;
+    height:7vw;
+    background-color:#FFD655;
+    display: flex;
+    padding: 0px;
+    margin: 0px;
+}
+.fb_icon{
+    background-color:#fffbf8;
+    width: 2.3vw;
+    height:2.3vw;
+    border-radius: 3px;
+    margin: 2.34vw 1.8vw 2.34vw 68.2vw; 
+}
+.ig_icon{
+    background-color:#fffbf8;
+    width: 2.3vw;
+    height:2.3vw;
+    border-radius: 7px;
+    margin: 2.34vw 1.8vw 2.34vw 0;
+}
+.line_icon{
+    background-color:#fffbf8;
+    width: 2.3vw;
+    height:2.3vw;
+    border-radius: 3px;
+    margin: 2.34vw 1.8vw 2.34vw 0;
+}
+.footerline{
+    width: 2px;
+    height: 2.3vw;
+    background-color: #854B4B;
+    margin: 2.34vw 1.8vw 2.34vw 0;
+    opacity: 0.5;
+}
+.ABOUT{
+    color:#854B4B;
+    margin:  2.8vw 1.8vw 2.34vw 0;
+    font-family:Franklin Gothic Book;
+    font-size: 18px;
+    font-style: normal;
+    font-stretch: normal;
+    letter-spacing: normal;
+}
+.HELP{
+    color:#854B4B;
+    margin:  2.8vw 1.8vw 2.34vw 0;
+    font-family:Franklin Gothic Book;
+    font-size: 18px;
+    font-style: normal;
+    font-stretch: normal;
+    letter-spacing: normal;
+}

@@ -1,0 +1,298 @@
+html{
+    width: 100vw;
+    background-color:#fffbf8;
+    margin:auto;
+}
+.main{
+    display: flex;
+    padding: 0px;
+    margin: 0px;
+}
+/* 左邊直的 */
+.left{
+    width: 18.9vw;
+    height:38.2vw;
+    background-color:#FFD655 ;
+    /* border: 2px #854B4B solid; */
+    border-radius: 3px;
+    margin: 6vw 0.46vw 5.1vw 5.2vw;
+}
+.flex{
+    display: flex;
+}
+.linebeforeword{
+    width: 0.2VW;
+    height: 1.9vw;
+    background-color: #854B4B;
+    margin: 5.4vw 0 0vw 2vw;
+}
+.item{
+    width: 10vw;
+    height:10vw;
+    border-radius: 3px;
+    margin: 1vw 1.6vw 5.1vw 1.6vw;
+}
+
+.itemname{
+    margin: 7vw 1vw 0vw 4.5vw;
+    font-family:Taipei Sans TC Beta;
+    font-weight:bold;
+    font-size: 1.8VW;
+    color:#854B4B ;
+}
+
+/* 右上 */
+.b_up{
+    display: flex;
+    padding: 0px;
+    margin: 0px;
+}
+.go{
+    position: absolute;
+    z-index:9999;
+    color:#854B4B;
+    /* margin: 4.9vw 2vw 0vw 0; */
+    top:11vw;
+    left:39vw;
+    font-family:Franklin Gothic Book;
+    font-size:40px;
+    font-style: normal;
+    font-stretch: normal;
+    letter-spacing: normal;
+}
+
+.la_background{
+    width: 32.6vw;
+    height:18.9vw;
+    display: inline-block;
+    background-color: #FFEAA8;
+    border-radius: 3px;
+    margin: 6vw 0.46vw 0.46vw 0;
+}
+.la{
+    width: 20.8vw;
+    height:6.95vw;
+    margin: 6vw 6vw 6vw 5.8vw;
+}
+
+.shopee_background{
+    width: 18.3vw;
+    height:18.7vw;
+    border: 2px #DD5532 solid;
+    border-radius: 3px;
+    margin: 6vw 0.46vw 0.46vw 0;
+   
+}
+.shopee{
+    width: 8.5vw;
+    height:12vw;
+    margin: 3.2vw 4.7vw;
+}
+.yahoo_background{
+    margin-top:6vw;
+}
+.yahoo{
+    width: 18.2vw;
+    height:18.9vw;
+    border-radius: 3px;
+}
+/* 中下 */
+.b_down{
+    display: flex;
+    padding: 0px;
+    margin: 0px;
+}
+.moout{
+    width: 18.2vw;
+    height:18.6vw;
+    border: 2px #F21275 solid;
+    border-radius: 3px;
+}
+.mo{
+    width: 13.5vw;
+    height:10vw;
+    border-radius: 3px;
+    margin: 4.68vw 2.38vw;
+}
+.pchome_background{
+    width: 33vw;
+    height:18.9vw;
+    background-color: #FFEAA8;
+    border-radius: 3px;
+    margin: 0 0.46vw 0 0.46vw ;
+}
+.pc{
+    width: 19.1vw;
+    height:10.4vw;
+    margin: 4.45vw 6.7vw ;
+
+}
+/* 右下上排 */
+.s_up{
+    display: flex;
+    padding: 0px;
+    margin: 0px;
+}
+input.chocolate{
+    width: 8.87vw;
+    height:9.2vw;
+    border-radius: 3px;
+    border: 2px #FFD655 solid;
+    background-color:#fffbf8;
+    color:#854B4B;
+    font-family:Franklin Gothic Book;
+    font-size: 1.5VW;
+    font-style: normal;
+    font-stretch: normal;
+    letter-spacing: normal;
+    margin-right: 0.46vw;
+    transition-duration: 0.4s;
+    outline: none;
+}
+input.chocolate:hover{
+    width: 8.87vw;
+    height:9.2vw;
+    border:0;
+    background-color:#FFD655;
+    color:#fffbf8;
+    margin-right: 0.46vw;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+  }
+  input.cookie{
+    width: 8.87vw;
+    height:9.2vw;
+    border-radius: 3px;
+    border: 2px #854B4B solid;
+    background-color:#fffbf8;
+    color:#854B4B;
+    font-family:Franklin Gothic Book;
+    font-size:1.5VW;
+    font-style: normal;
+    font-stretch: normal;
+    letter-spacing: normal;
+    margin-right: 0.46vw;
+    transition-duration: 0.4s;
+    outline: none;
+}
+input.cookie:hover{
+    width: 8.87vw;
+    height:9.2vw;
+    border:0;
+    background-color:#854B4B;
+    color:#fffbf8;
+    margin-right: 0.46vw;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+  }
+/* 右下下排 */
+.s_down{
+    display: flex;
+    padding: 0px;
+    margin: 0px;
+}
+.btnheart{
+    width:8.65vw;
+    height:9vw;
+    border-radius: 3px;
+    border: 2px #854B4B solid;
+    background-color:#fffbf8;
+    margin-right: 0.46vw;
+    margin-top: 0.46vw;
+    outline: none;
+}
+input.heart{
+    width:3.8vw;
+    height:3.5vw;
+    margin:2.8vw 0 0 2.3vw;
+    outline: none;
+    
+}
+input.change{
+    width:3.8vw;
+    height:3.5vw;
+    margin:2.8vw 0 0 2.3vw;
+    outline: none;
+}
+
+  
+input.previouspage{
+    width: 8.87vw;
+    height:9.25vw;
+    border-radius: 3px;
+    border: 2px #FFD655 solid;
+    background-color:#fffbf8;
+    color:#854B4B;
+    font-family:Franklin Gothic Book;
+    font-size: 1.5VW;
+    font-style: normal;
+    font-stretch: normal;
+    letter-spacing: normal;
+    margin-right: 0.46vw;
+    margin-top: 0.46vw;
+    transition-duration: 0.4s;
+    outline: none;
+}
+input.previouspage:hover{
+    width: 8.87vw;
+    height:9.25vw;
+    border:0;
+    background-color:#FFD655;
+    color:#fffbf8;
+    margin-right: 0.46vw;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+  }
+
+/* footer */
+footer{
+    width: 100vw;
+    height:7vw;
+    background-color:#FFD655;
+    display: flex;
+    padding: 0px;
+    margin: 0px;
+}
+.fb_icon{
+    background-color:#fffbf8;
+    width: 2.3vw;
+    height:2.3vw;
+    border-radius: 3px;
+    margin: 2.34vw 1.8vw 2.34vw 68.2vw; 
+}
+.ig_icon{
+    background-color:#fffbf8;
+    width: 2.3vw;
+    height:2.3vw;
+    border-radius: 7px;
+    margin: 2.34vw 1.8vw 2.34vw 0;
+}
+.line_icon{
+    background-color:#fffbf8;
+    width: 2.3vw;
+    height:2.3vw;
+    border-radius: 3px;
+    margin: 2.34vw 1.8vw 2.34vw 0;
+}
+.line{
+    width: 2px;
+    height: 2.3vw;
+    background-color: #854B4B;
+    margin: 2.34vw 1.8vw 2.34vw 0;
+    opacity: 0.5;
+}
+.ABOUT{
+    color:#854B4B;
+    margin:  2.8vw 1.8vw 2.34vw 0;
+    font-family:Franklin Gothic Book;
+    font-size: 18px;
+    font-style: normal;
+    font-stretch: normal;
+    letter-spacing: normal;
+}
+.HELP{
+    color:#854B4B;
+    margin:  2.8vw 1.8vw 2.34vw 0;
+    font-family:Franklin Gothic Book;
+    font-size: 18px;
+    font-style: normal;
+    font-stretch: normal;
+    letter-spacing: normal;
+}

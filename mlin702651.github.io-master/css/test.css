@@ -1,0 +1,456 @@
+html, body {
+    background: #fff;
+    /* height: 300vh; */
+    color: #fff;
+    width: 100vw;
+    /* overflow:hidden; */
+    height: 280vw;
+  }
+  
+ /* part1 */
+  
+.one {
+    background-color: rgb(248, 248, 248);
+    height: 30vw;
+    width: 100vw;
+    position: absolute;
+}
+  
+.two {
+    position: absolute;
+    padding: 0px;
+    margin: 0px;
+    z-index: 1;
+    width: 0;
+    height: 0;
+    
+}
+.colorbar{
+    width: 100vw;
+    height: 50vw;
+    position: absolute;
+    top: 20.32vw;
+    background-color:#FFD655;
+
+}
+.top{
+  display: flex;
+  padding:0;
+  margin: 0;
+  /* position:fixed; */
+  /* position: absolute; */
+  z-index: 0;
+}
+.name{
+  color:#854B4B;
+  position: absolute;
+  top:5vw;
+  left:61.25vw;
+  font-family:Bodoni MT;
+  font-size:2.73vw;
+  font-style: normal;
+  font-stretch: normal;
+  letter-spacing: normal;
+}
+.candy{
+  color:#854B4B;
+  position: absolute;
+  top:14.28vw;
+  left:61.25vw;
+  font-family:Segoe WP;
+  font-size: 1.56vw;
+  font-style: normal;
+  font-stretch: normal;
+  letter-spacing: normal;
+}
+
+.chocolate{
+  color:#854B4B;
+  position: absolute;
+  top:14.28vw;
+  left:61.25vw; 
+  font-family:Segoe WP;
+  font-size: 1.56vw;
+  font-style: normal;
+  font-stretch: normal;
+  letter-spacing: normal;
+}
+.cookie{
+  color:#854B4B;
+  position: absolute;
+  top:14.28vw;
+  left:70.45vw; 
+  font-family:Segoe WP;
+  font-size: 1.56vw;
+  font-style: normal;
+  font-stretch: normal;
+  letter-spacing: normal;
+}
+
+.heart_icon_top{
+  position: absolute;
+  width: 2vw;
+  height: 1.875vw;
+  top:12vw;
+  left:61.5vw;
+
+}
+.user_icon_top{
+  position: absolute;
+  width: 1.7vw;
+  height: 2.3vw;
+  top:11.66vw;
+  left:64.95vw;
+}
+.img_top1{
+  position: absolute;
+  width: 53.2vw;
+  height: 40.39vw;
+  top:2.5vw;
+  left: 3.4vw;
+}
+.img_top2{
+  position: absolute;
+  width: 20.7vw;
+  height: 26vw;
+  top:21vw;
+  left: 58.8vw;
+}
+.img_top3{
+  position: absolute;
+  width: 14.84vw;
+  height: 18.98vw;
+  top:21vw;
+  left: 81.71vw;
+}
+#gototopseller{
+  position: relative;
+  color:rgba(133, 75, 75,0.8);
+  top:43vw;
+  left:30vw; 
+  font-family:Segoe WP;
+  font-size: 1.56vw;
+  font-style: normal;
+  font-stretch: normal;
+  letter-spacing: normal;
+  
+}
+
+
+  /* part2 */
+.part2background{
+    position: absolute;
+    width: 100vw;
+    height: 181.5vw;
+    top:75vw;
+    left: -1vw;
+}
+.wordhot{
+    color:#854B4B;
+
+    position: absolute;
+    top: -12vw;
+    left: 44vw;
+    margin:11vw auto 2vw;
+    font-family:Sylfaen;
+    font-size: 2.7vw;
+    font-style: normal;
+    font-stretch: normal;
+    letter-spacing: normal;
+    z-index: 9;
+    text-shadow:  0px 2px 2px rgb(99, 51, 51)
+}
+.hotmar{
+    top:115vw;
+    width: 0;
+    height: 0;
+}
+.hot{
+    display: flex;
+    padding: 0px;
+    margin: 0;
+    position: relative;
+    top:150vw;
+    width: 100vw;
+    height: 0;
+}
+.hotimg{
+    display: flex;
+    position: absolute;
+    padding: 0px;
+    width: 100vw;
+    height: 0;
+    margin-left: 3.4vw;
+    top:120vw;
+    z-index: 9;
+
+}
+.hot2{
+    width: 22.3vw;
+    height: 30.5vw;
+    box-shadow: 3px 3px 7px rgba(0, 0, 0, 0.3);
+    border-radius: 3px;
+    margin-left: 3.4vw;
+    margin-right: 0.8vw;
+    position:  absolute;
+    z-index: 9;
+    top: 155vw;
+    background-color: black;
+    /* background-image: url(../images/hot1background.png); */
+}
+.mask2{
+  width: 22.3vw;
+  height: 30.5vw;
+  border-radius: 3px;
+  margin-left: 3.4vw;
+  margin-right: 0.8vw;
+  position:absolute;
+  z-index: 9;
+  top: 155vw;
+  background-color: black;
+  color:#fff;
+  opacity: 0;
+}
+.masknumber2{
+  text-align: center;
+  font-size: 12vw;
+  font-family: Franklin Gothic Book;
+
+}
+.hot1{
+    width: 46vw;
+    height: 30.5vw;
+    box-shadow: 3px 3px 7px rgba(0, 0, 0, 0.3);
+    border-radius: 3px;
+    margin-right: 0.8vw;
+    position:absolute;
+    z-index: 9;
+    top: 155vw;
+    left: 26.84vw;
+}
+.mask1{
+  width: 46vw;
+  height: 30.5vw;
+  border-radius: 3px;
+  margin-right: 0.8vw;
+  position:absolute;
+  z-index: 9;
+  top: 155vw;
+  left: 26.84vw;
+  background-color: black;
+  color:#fff;
+  opacity: 0;
+}
+.masknumber1{
+  text-align: center;
+  font-size: 12vw;
+  font-family: Franklin Gothic Book;
+
+}
+.hot3{
+    width: 22.3vw;
+    height: 30.5vw;
+    box-shadow: 3px 3px 7px rgba(0, 0, 0, 0.3);
+    border-radius: 3px;
+    position:  absolute;
+    z-index: 9;
+    top: 155vw;
+    left:74vw;
+
+}
+.mask3{
+  width: 22.3vw;
+    height: 30.5vw;
+  border-radius: 3px;
+  margin-right: 0.8vw;
+  position:absolute;
+  z-index: 9;
+  top: 155vw;
+  left:74vw;
+  background-color: black;
+  color:#fff;
+  opacity: 0;
+}
+.masknumber3{
+  text-align: center;
+  font-size: 12vw;
+  font-family: Franklin Gothic Book;
+
+}
+/*33333*/
+
+/* 下面的照片圖 */
+/* .itembackground{
+  background-color:#fffdf9 ;
+  width: 100vw;
+  height: 80vw;
+  position: absolute;
+  z-index:0;
+  margin-top: -10vw;
+} */
+
+
+.bottom{
+  top:75vw;
+  position: relative;
+  width: 0;
+  height: 0;
+}
+.row1{
+  display: flex;
+  padding: 0px;
+  margin-top: 100vw;
+  position: relative;
+  z-index: 9;
+ 
+}
+.row2{
+  display: flex;
+  padding: 0px;
+  margin-top:2vw;
+  position: relative;
+  z-index: 9;
+}
+.row3{
+  display: flex;
+  padding: 0px;
+  margin-top:2vw;
+  position: relative;
+  z-index: 9;
+}
+a{
+  text-decoration:none;
+}
+.box1{
+  width: 15.8vw;
+  height: 20.5vw;
+  background-color:#FFEAA8;
+  margin-left: 14vw;
+  /* border: solid 1px rgb(99, 51, 51); */
+  box-shadow: 0px 0px 8px rgba(99, 51, 51, 0.459);
+  border-radius: 1.17vw;
+}
+
+
+.box2{
+  width: 15.8vw;
+  height: 20.5vw;
+  background-color:#FFEAA8;
+  margin-left: 2.8vw;
+  box-shadow: 0px 0px 8px rgba(99, 51, 51, 0.459);
+  border-radius: 1.17vw;
+}
+.box3{
+  width: 15.8vw;
+  height: 20.5vw;
+  background-color:#FFEAA8;
+  margin: 0vw 14vw 0 2.8vw;
+  box-shadow: 0px 0px 8px rgba(99, 51, 51, 0.459);
+  border-radius: 1.17vw;
+}
+.boximg{
+  
+  width: 13.75vw;
+  height: 13.75vw;
+  margin: 1.1vw 1vw 5.625vw 1vw;
+  border-radius: 0.5vw;
+}
+.information{
+  
+  margin-top: -5.2vw;
+  margin-left : 1.3vw;
+  color:#854B4B;
+  font-family:Segoe WP;
+  font-size:1.2vw;
+  font-style: normal;
+  font-stretch: normal;
+  letter-spacing: normal;
+  font-weight: bold;
+}
+
+
+
+/* 頁數 */
+.number{
+  font-family:Franklin Gothic Book;
+  font-size:1.3vw;
+  color:#854B4B;
+  display: flex;
+  margin-left: 43.9vw;
+  margin-top: 2.7vw;
+  margin-bottom: 1.5vw;
+  list-style-type: none;
+  position: relative;
+  z-index: 9;
+}
+.nuone{
+  margin-right: 2vw;
+}
+.nutwo{
+  margin-right: 2vw;
+}
+.underbackground{
+
+  position: absolute;
+  width: 100vw;
+  top:40vw;
+
+}
+/* footer */
+footer{
+  width: 100vw;
+  height:7vw;
+  background-color:#FFD655;
+  display: flex;
+  padding: 0px;
+  margin: 0px;
+  position: relative;
+  top:263vw;
+  z-index: 1;
+}
+.fb_icon{
+  background-color:rgb(249, 251, 255);
+  width: 2.3vw;
+  height:2.3vw;
+  border-radius: 3px;
+  margin: 2.34vw 1.8vw 2.34vw 68.2vw; 
+}
+.ig_icon{
+  background-color:rgb(249, 251, 255);
+  width: 2.3vw;
+  height:2.3vw;
+  border-radius: 7px;
+  margin: 2.34vw 1.8vw 2.34vw 0;
+}
+.line_icon{
+  background-color:rgb(249, 251, 255);
+  width: 2.3vw;
+  height:2.3vw;
+  border-radius: 3px;
+  margin: 2.34vw 1.8vw 2.34vw 0;
+}
+.footerline{
+  width: 2px;
+  height: 2.3vw;
+  background-color: #854B4B;
+  margin: 2.34vw 1.8vw 2.34vw 0;
+  opacity: 0.5;
+}
+.ABOUT{
+  color:#854B4B;
+  margin:  2.8vw 1.8vw 2.34vw 0;
+  font-family:Franklin Gothic Book;
+  font-size: 1.4vw;
+  font-style: normal;
+  font-stretch: normal;
+  letter-spacing: normal;
+}
+.HELP{
+  color:#854B4B;
+  margin:  2.8vw 1.8vw 2.34vw 0;
+  font-family:Franklin Gothic Book;
+  font-size: 1.4vw;
+  font-style: normal;
+  font-stretch: normal;
+  letter-spacing: normal;
+}
